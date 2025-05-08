@@ -1,0 +1,3 @@
+[2025-05-08T19:14:57.458Z] POST / - Response: {"success":true,"message":"handleCreateRecipe"}
+[2025-05-08T19:25:24.476Z] GET / - Response: {"success":true,"message":"handleGetAllRecipes","allRecipes":[]}
+[2025-05-08T19:32:07.878Z] GET / - Response: {"success":true,"message":"Get all recipes","allRecipes":[]}
