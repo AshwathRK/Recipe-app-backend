@@ -5,8 +5,6 @@ const Recipe = require('./Models/Recipe.model');
 const username = encodeURIComponent('ashwathamanr6');
 const password = encodeURIComponent('0EqI3qLt4i8f1ix3');
 
-const mongoose = require('mongoose');
-
 const uri = `mongodb+srv://${username}:<${password}>@your-cluster.mongodb.net/sample_mflix?retryWrites=true&w=majority`;
 
 mongoose.connect(uri, {
