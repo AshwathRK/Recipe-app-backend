@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const Recipe = require('./path-to-your-model'); // adjust this as needed
+const Recipe = require('./Models/Recipe.model');
 
 // Replace with your actual MongoDB Atlas username and password
 const username = encodeURIComponent('ashwathamanr6');

@@ -7,6 +7,6 @@ const RecipeSchema = new m.Schema({
     Recipetype: {type: String, enum: ['veg', 'non-veg']},
 },{ timestamps: true })
 
-const books = m.model('Recipes', RecipeSchema, 'Recipes')
+const Recipe = m.model('Recipes', RecipeSchema, 'Recipes')
 
-module.exports = books;
+module.exports = Recipe;
