@@ -5,18 +5,14 @@ const Recipe = require('./Models/Recipe.model');
 const username = encodeURIComponent('ashwathamanr6');
 const password = encodeURIComponent('0EqI3qLt4i8f1ix3');
 
-// Your cluster URL and DB name
-const clusterUrl = 'atlas-sql-6820e32e832ab3049376222f-htlpyt.a.query.mongodb.net';
-const dbName = 'sample_mflix';
+const mongoose = require('mongoose');
 
-const uri = `mongodb://${username}:${password}@${clusterUrl}/${dbName}?ssl=true&authSource=admin`;
+const uri = `mongodb+srv://${username}:<${password}>@your-cluster.mongodb.net/sample_mflix?retryWrites=true&w=majority`;
 
-mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true })
-  .then(() => {
-    console.log('MongoDB connected');
-    // Optional: test with a simple document insert
-    // Recipe.create({ Recipe_key: 1, RecipeName: "Pasta", Ingredients: ["noodles", "sauce"], Recipetype: "veg" })
-  })
-  .catch(err => {
-    console.error('Connection error:', err);
-  });
+mongoose.connect(uri, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+})
+.then(() => console.log('Connected to MongoDB'))
+.catch((err) => console.error('Connection error:', err));
+
