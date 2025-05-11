@@ -1,3 +1,30 @@
 [2025-05-10T16:21:42.913Z] GET /681f787d38f2166d3287f0 - Response: {"success":false,"message":"Server error while fetching recipe with ID 681f787d38f2166d3287f0","error":"Cast to ObjectId failed for value \"681f787d38f2166d3287f0\" (type string) at path \"_id\" for model \"Recipes\""}
 [2025-05-10T16:22:26.180Z] GET / - Response: {"success":true,"message":"Get all recipes","data":[{"_id":"681f787d38f2166d3287f0d7","Recipe_key":1,"RecipeName":"poori","Ingredients":["Oil","Aata"]}]}
 [2025-05-10T16:22:35.799Z] GET /681f787d38f2166d3287f0d7 - Response: {"success":true,"message":"Fetched recipe for ID 681f787d38f2166d3287f0d7","data":{"_id":"681f787d38f2166d3287f0d7","Recipe_key":1,"RecipeName":"poori","Ingredients":["Oil","Aata"]}}
+[2025-05-11T15:50:18.121Z] POST / - Response: {"success":false,"message":"Error while creating the recipe: Recipes validation failed: Recipetype: Cast to date failed for value \"veg\" (type string) at path \"Recipetype\""}
+[2025-05-11T15:52:31.355Z] POST / - Response: {"success":true,"message":"The recipe has been created"}
+[2025-05-11T15:54:57.595Z] POST / - Response: {"success":false,"message":"Error while creating the recipe: E11000 duplicate key error collection: Recipe_app.Recipes index: Recipe_key_1 dup key: { Recipe_key: 2 }"}
+[2025-05-11T15:55:10.841Z] POST / - Response: {"success":true,"message":"The recipe has been created"}
+[2025-05-11T16:16:01.625Z] PUT /6820c85e8e4de3b0e9bccf01 - Response: {"success":false,"message":"Error while updating the recipe: ObjectId is not defined"}
+[2025-05-11T16:16:33.104Z] PUT /6820c85e8e4de3b0e9bccf01 - Response: {"success":false,"message":"Error while updating the recipe: ObjectId is not defined"}
+[2025-05-11T16:17:43.120Z] PUT /6820c85e8e4de3b0e9bccf01 - Response: {"success":false,"message":"No recipe found or no changes made"}
+[2025-05-11T16:17:58.792Z] PUT /6820c85e8e4de3b0e9bccf01 - Response: {"success":false,"message":"Error while updating the recipe: ObjectId is not defined"}
+[2025-05-11T16:19:37.793Z] PUT /6820c85e8e4de3b0e9bccf01 - Response: {"success":false,"message":"Internal Server Error","error":"ObjectId is not defined"}
+[2025-05-11T16:19:59.678Z] PUT /6820c7bf8e4de3b0e9bccefd - Response: {"success":false,"message":"Internal Server Error","error":"ObjectId is not defined"}
+[2025-05-11T16:21:23.168Z] PUT /6820c7bf8e4de3b0e9bccefd - Response: {"success":false,"message":"Internal Server Error","error":"ObjectId is not defined"}
+[2025-05-11T16:23:15.059Z] PUT /6820c7bf8e4de3b0e9bccefd - Response: {"success":false,"message":"Error while updating the recipe: Class constructor ObjectId cannot be invoked without 'new'"}
+[2025-05-11T16:24:11.378Z] PUT /6820c7bf8e4de3b0e9bccefd - Response: {"success":false,"message":"Error while updating the recipe: E11000 duplicate key error collection: Recipe_app.Recipes index: Recipe_key_1 dup key: { Recipe_key: 3 }"}
+[2025-05-11T16:24:35.778Z] PUT /6820c7bf8e4de3b0e9bccefd - Response: {"success":true,"message":"The recipe has been updated"}
+[2025-05-11T16:29:41.514Z] PUT /6820c85e8e4de3b0e9bccf01 - Response: {"success":true,"message":"The recipe has been updated"}
+[2025-05-11T16:32:26.226Z] PUT /6820c7bf8e4de3b0e9bccefd - Response: {"success":false,"message":"Error while updating the recipe: E11000 duplicate key error collection: Recipe_app.Recipes index: Recipe_key_1 dup key: { Recipe_key: 3 }"}
+[2025-05-11T16:33:22.817Z] PUT /6820c7bf8e4de3b0e9bccefd - Response: {"success":false,"message":"Error while updating the recipe: E11000 duplicate key error collection: Recipe_app.Recipes index: Recipe_key_1 dup key: { Recipe_key: 3 }"}
+[2025-05-11T16:34:13.611Z] PUT /6820c7bf8e4de3b0e9bccefd - Response: {"success":false,"message":"Error while updating the recipe: E11000 duplicate key error collection: Recipe_app.Recipes index: Recipe_key_1 dup key: { Recipe_key: 3 }"}
+[2025-05-11T16:34:27.314Z] PUT /6820c7bf8e4de3b0e9bccefd - Response: {"success":false,"message":"Error while updating the recipe: Cannot read properties of undefined (reading 'Recipe_key')"}
+[2025-05-11T16:34:50.846Z] DELETE /6820c7bf8e4de3b0e9bccefd - Response: {"success":false,"message":"Recipe not found"}
+[2025-05-11T16:35:08.814Z] DELETE /6820c7bf8e4de3b0e9bccefd - Response: {"success":false,"message":"Recipe not found"}
+[2025-05-11T16:35:58.420Z] DELETE /6820c7bf8e4de3b0e9bccefd - Response: {"success":false,"message":"Recipe not found"}
+[2025-05-11T16:36:27.367Z] DELETE /6820c7bf8e4de3b0e9bccefd - Response: {"success":false,"message":"Recipe not found"}
+[2025-05-11T16:37:51.512Z] DELETE /6820c7bf8e4de3b0e9bccefd - Response: {"success":false,"message":"Recipe not found"}
+[2025-05-11T16:40:24.668Z] DELETE /6820c7bf8e4de3b0e9bccefd - Response: {"success":false,"message":"Recipe not found"}
+[2025-05-11T16:41:02.198Z] DELETE /6820c7bf8e4de3b0e9bccefd - Response: {"success":false,"message":"Recipe not found"}
+[2025-05-11T16:44:06.738Z] DELETE /6820c7bf8e4de3b0e9bccefd - Response: {"success":true,"message":"The recipe has been deleted"}

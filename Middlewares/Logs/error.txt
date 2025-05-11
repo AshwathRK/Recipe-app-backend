@@ -1,0 +1,51 @@
+
+[2025-05-11T16:19:37.790Z]
+Method: PUT
+URL: /6820c85e8e4de3b0e9bccf01
+Message: ObjectId is not defined
+Stack: ReferenceError: ObjectId is not defined
+    at handleUpdateRecipe (D:\Node\Recipe app\Controller\recipe.controller.js:77:5)
+    at Layer.handleRequest (D:\Node\Recipe app\node_modules\router\lib\layer.js:152:17)
+    at next (D:\Node\Recipe app\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (D:\Node\Recipe app\node_modules\router\lib\route.js:117:3)
+    at handle (D:\Node\Recipe app\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (D:\Node\Recipe app\node_modules\router\lib\layer.js:152:17)
+    at D:\Node\Recipe app\node_modules\router\index.js:295:15
+    at param (D:\Node\Recipe app\node_modules\router\index.js:600:14)
+    at param (D:\Node\Recipe app\node_modules\router\index.js:610:14)
+    at processParams (D:\Node\Recipe app\node_modules\router\index.js:664:3)
+------------------------------------------------------------
+
+[2025-05-11T16:19:59.677Z]
+Method: PUT
+URL: /6820c7bf8e4de3b0e9bccefd
+Message: ObjectId is not defined
+Stack: ReferenceError: ObjectId is not defined
+    at handleUpdateRecipe (D:\Node\Recipe app\Controller\recipe.controller.js:77:5)
+    at Layer.handleRequest (D:\Node\Recipe app\node_modules\router\lib\layer.js:152:17)
+    at next (D:\Node\Recipe app\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (D:\Node\Recipe app\node_modules\router\lib\route.js:117:3)
+    at handle (D:\Node\Recipe app\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (D:\Node\Recipe app\node_modules\router\lib\layer.js:152:17)
+    at D:\Node\Recipe app\node_modules\router\index.js:295:15
+    at param (D:\Node\Recipe app\node_modules\router\index.js:600:14)
+    at param (D:\Node\Recipe app\node_modules\router\index.js:610:14)
+    at processParams (D:\Node\Recipe app\node_modules\router\index.js:664:3)
+------------------------------------------------------------
+
+[2025-05-11T16:21:23.166Z]
+Method: PUT
+URL: /6820c7bf8e4de3b0e9bccefd
+Message: ObjectId is not defined
+Stack: ReferenceError: ObjectId is not defined
+    at handleUpdateRecipe (D:\Node\Recipe app\Controller\recipe.controller.js:78:5)
+    at Layer.handleRequest (D:\Node\Recipe app\node_modules\router\lib\layer.js:152:17)
+    at next (D:\Node\Recipe app\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (D:\Node\Recipe app\node_modules\router\lib\route.js:117:3)
+    at handle (D:\Node\Recipe app\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (D:\Node\Recipe app\node_modules\router\lib\layer.js:152:17)
+    at D:\Node\Recipe app\node_modules\router\index.js:295:15
+    at param (D:\Node\Recipe app\node_modules\router\index.js:600:14)
+    at param (D:\Node\Recipe app\node_modules\router\index.js:610:14)
+    at processParams (D:\Node\Recipe app\node_modules\router\index.js:664:3)
+------------------------------------------------------------
